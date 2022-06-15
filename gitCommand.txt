@@ -1,1 +1,28 @@
 used command for github files upload purpose.
+
+A@DESKTOP-TFRFQ2K MINGW64 ~ (master)
+$ cd e:
+
+A@DESKTOP-TFRFQ2K MINGW64 /e (main)
+$ cd fsd
+
+A@DESKTOP-TFRFQ2K MINGW64 /e/fsd (main)
+$ dir
+desktop.ini  jfsd-project1  New\ folder  New\ Text\ Document\ (2).txt  practical
+
+A@DESKTOP-TFRFQ2K MINGW64 /e/fsd (main)
+$ cd jfsd-project1/
+
+A@DESKTOP-TFRFQ2K MINGW64 /e/fsd/jfsd-project1 (main)
+$ git init
+
+A@DESKTOP-TFRFQ2K MINGW64 /e/fsd/jfsd-project1 (master)
+$ git add .
+
+A@DESKTOP-TFRFQ2K MINGW64 /e/fsd/jfsd-project1 (master)
+$ git commit -m "this is for  to upload all the files"
+
+
+A@DESKTOP-TFRFQ2K MINGW64 /e/fsd/jfsd-project1 (master)
+$ git push https://github.com/hardik8646/jfsd-project1.git
+
